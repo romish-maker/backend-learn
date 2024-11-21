@@ -1,0 +1,22 @@
+{
+  "name": "backend-learn",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/romish-maker/backend-learn.git",
+  "author": "romish kuvatov <romish.kuvatov@tele2.kz>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "scripts": {
+    "dev": "nodemon --inspect dist/index.js",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
