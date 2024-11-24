@@ -6,11 +6,19 @@
   "author": "romish kuvatov <romish.kuvatov@tele2.kz>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.21.1"
+    "@types/jest": "^29.5.14",
+    "@types/supertest": "^6.0.2",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5"
   },
   "scripts": {
     "dev": "nodemon --inspect dist/index.js",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "jest": "jest -i"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",

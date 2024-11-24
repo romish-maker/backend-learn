@@ -1,11 +1,6 @@
-import express, { Request, Response } from 'express'
+import { app } from './settings'
 
-const app = express()
-const port = 3000
-
-app.get('/' , (req: Request, res: Response) => {
-    res.send('romish')
-})
+const port = process.env.PORT || 3000
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
